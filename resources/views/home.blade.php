@@ -8,7 +8,7 @@
     html, body { height: 100%; }
 
     body{
-      color: #f8f8f8;
+      background: #f8f8f8;
     }
 
     h2 {
