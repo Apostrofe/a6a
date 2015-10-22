@@ -3,17 +3,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0" />
 
-  <title>@yield('title', '')</title>
+  <title>a6a | Leasing Boutique - @yield('title', '')</title>
   <meta name="description" content="@yield('description', '')" />
-  <meta name="author" content="dinkbit" />
+  <meta name="author" content="McB_Glz" />
+  <meta name="keywords" content="">
 
   @yield('meta')
 
   <meta property="og:locale" content="es_LA" />
-  <meta property="og:title" content="@yield('title_share', '')" />
+  <meta property="og:title" content="a6a | Leasing Boutique" />
   <meta property="og:description" content="@yield('description', '')" />
   <meta property="og:url" content="{{{ Request::url() }}}" />
-  <meta property="og:site_name" content="" />
+  <meta property="og:site_name" content="a6a | Leasing Boutique" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="@yield('image', url('assets/img/logo_share.png'))" />
   <meta property="og:image:width" content="1200" />

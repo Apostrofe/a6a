@@ -13,9 +13,14 @@
 
 //*** Welcome
 
-$app->get('/', ['as'   => 'welcome', function() use ($app)
-{
-    return view('landing');
-}]);
+// $app->get('/', ['as'   => 'welcome', function() use ($app)
+// {
+//     return view('landing');
+// }]);
 
 //*** End Welcome
+
+
+$app->get('/', function(){
+	return view('home');
+});
